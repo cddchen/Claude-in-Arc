@@ -40,7 +40,7 @@
       "world": "MAIN"
    } ],
    "content_security_policy": {
-      "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://api.anthropic.com https://*.anthropic.com wss://api.anthropic.com https://claude.ai https://*.claude.ai https://platform.claude.com https://api.segment.io https://*.segment.com https://*.ingest.us.sentry.io https://api.honeycomb.io https://browser-intake-us5-datadoghq.com wss://bridge.claudeusercontent.com wss://bridge-staging.claudeusercontent.com https://*.claudeusercontent.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:;"
+      "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' http://localhost:8317 http://127.0.0.1:8317 https://api.anthropic.com https://*.anthropic.com wss://api.anthropic.com https://claude.ai https://*.claude.ai https://platform.claude.com https://api.segment.io https://*.segment.com https://*.ingest.us.sentry.io https://api.honeycomb.io https://browser-intake-us5-datadoghq.com wss://bridge.claudeusercontent.com wss://bridge-staging.claudeusercontent.com https://*.claudeusercontent.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:;"
    },
    "description": "Claude in Arc — patched for Arc Browser with sidebar panel, Desktop integration and tab grouping",
    "externally_connectable": {

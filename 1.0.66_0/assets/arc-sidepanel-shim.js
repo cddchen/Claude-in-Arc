@@ -4,6 +4,7 @@
  * Must be imported BEFORE the official service worker bundle so that all
  * references to chrome.sidePanel resolve to our polyfill.
  */
+console.log("Hello From Local");
 
 /** When true: write verbose diagnostics to chrome.storage.local (`claude_arc_debug_ring`). Ship with false. */
 const ARC_SHIM_DEBUG = false;
